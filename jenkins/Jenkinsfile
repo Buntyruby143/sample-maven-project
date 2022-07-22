@@ -36,6 +36,13 @@ tools {
                  }
             }
         }
+        stage('test step status') {
+            steps {
+                echo " All the test cases executed successfully"
+                }
+           }
+        }
+            
         stage('Deliver') {
             steps {
                 dir('simple-java-maven-app'){
