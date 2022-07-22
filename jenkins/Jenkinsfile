@@ -41,7 +41,6 @@ tools {
                 echo " All the test cases executed successfully"
                 }
            }
-        }
             
         stage('Deliver') {
             steps {
